@@ -1,6 +1,7 @@
-- 👋 Hi, I’m @caveeroo
-- 👀 I’m interested in OSINT, pentesting, and everything related to cybersecurity!
-- 🌱 I’m currently learning c, bash and c++
+- 👋 Hi! I’m @caveeroo
+- 👀 I’m interested in DFIR, OSINT, and everything related to cybersecurity!
+- 🌱 I’m currently learning about digital forensics and crypto fraud investigations
+- ⚒️  You can check out my public tools (currently only one, more coming!)
 - 📫 How to reach me: Twitter @caveeroo
 
 <!---
