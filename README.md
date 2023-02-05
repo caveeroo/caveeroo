@@ -1,7 +1,7 @@
 ### <div align="center">I'm Jaime, a part-time CTI analyst intern👨‍💻</div>  
   
 
-- 🔭 I’m currently working on a [private malware dev project](https://github.com/caveeroo) part time  
+- 🔭 Working on a [private malware dev project](https://github.com/caveeroo) part time  
   
 
 - 🌱 I’m currently learning DFIR, Malware Dev and Threat Intel.  
