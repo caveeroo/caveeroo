@@ -1,11 +1,12 @@
-### <div align="center">I'm Jaime, a part-time CTI analyst intern👨‍💻</div>  
+### <div align="center">Hi! I'm Jaime, a cybersecurity enthusiast 👨‍💻</div>  
   
 
 - 🔭 Working on a [private malware dev project](https://github.com/caveeroo) part time  
   
 
-- 🌱 I’m currently learning DFIR, Malware Dev and Threat Intel.  
-  
+- 🌱 I’m currently studying an undergraduate degree in cybersecurity.  
+
+- ⚙️ OSINT & Malware Dev
 
 - 📫 Reach me on Twitter [@caveeroo](https://twitter.com/caveeroo)  
   
