@@ -1,7 +1,7 @@
 ### <div align="center">Hi! I'm Jaime, a cybersecurity enthusiast 👨‍💻</div>  
   
 
-- 🔭 Working on a [private offensive security dev project](https://github.com/caveeroo) part time  
+- 🔭 Working on a [private offensive security dev project](https://github.com/caveeroo) regarding infrastructure automation  
 
 - 🌱 I’m currently studying an undergraduate degree in cybersecurity
 
@@ -9,7 +9,7 @@
 
 - 📫 Reach me on Twitter [@caveeroo](https://twitter.com/caveeroo)
 
-- Playing CTFs with [Base64CTF](https://base64ctf.com/)
+- Playing (ocasionally) CTFs with [Base64CTF](https://base64ctf.com/)
 
 <br/>  
 
