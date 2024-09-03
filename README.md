@@ -5,8 +5,6 @@
 
 - 🌱 I’m currently studying an undergraduate degree in cybersecurity
 
-- ⚙️ OSINT & offensive security Dev
-
 - 📫 Reach me on Twitter [@caveeroo](https://twitter.com/caveeroo)
 
 - Playing (ocasionally) CTFs with [Base64CTF](https://base64ctf.com/)
