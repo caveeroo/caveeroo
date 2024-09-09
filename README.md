@@ -57,6 +57,3 @@
 </a>
 </div>
 
-## 📫 Get in Touch
-
-Feel free to reach out to me on Twitter [@caveeroo](https://twitter.com/caveeroo) or connect with me on [LinkedIn](https://linkedin.com/in/jaime-cavero-s%C3%A1nchez/)!
