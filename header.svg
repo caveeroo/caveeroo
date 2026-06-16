@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="528" viewBox="0 0 1200 528" role="img" aria-labelledby="ti">
+<title id="ti">caveeroo (jaime cavero sánchez), security research. Disclosures: CVE-2026-54512 (jackson-databind, PTV bypass), CVE-2026-7375 (wireshark), CVE-2026-39973 (apktool), GHSA-r625-mph7-wf6j (ghidra, NSA).</title>
+<defs>
+
+</defs>
+<rect width="1200" height="528" fill="#0D0D0C"></rect>
+<rect x="0" y="0" width="5" height="528" fill="#E84B1A"></rect>
+<text font-family="PM" font-size="13" font-weight="500" letter-spacing="3" fill="#E84B1A" x="64" y="74">// SECURITY RESEARCH<tspan fill="#6E6E6A">    APPSEC / REVERSE ENGINEERING</tspan></text>
+<text font-family="ZS" font-size="90" font-weight="700" letter-spacing="-2" fill="#FAFAF8" x="60" y="174">caveeroo</text>
+<rect class="underline" x="64" y="194" width="337" height="3" fill="#E84B1A"></rect>
+<text font-family="PM" font-size="13.5" font-weight="500" letter-spacing="2.4" fill="rgba(255,255,255,0.55)" x="64" y="230">JAIME CAVERO SÁNCHEZ    MADRID    UTC+1</text>
+<line x1="64" y1="270" x2="1136" y2="270" stroke="rgba(255,255,255,0.13)" stroke-width="1"></line>
+<text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.4" x="64" y="320"><tspan fill="#E84B1A">$</tspan><tspan fill="rgba(255,255,255,0.82)"> cat disclosures.log</tspan></text>
+<rect class="cursor" x="293" y="308" width="9" height="16" fill="#E84B1A"></rect>
+<rect class="scan" x="64" y="342" width="1072" height="2" fill="#E84B1A" opacity="0"></rect>
+<g class="row" style="animation-delay:0.45s">
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="356" fill="rgba(255,255,255,0.38)">2026</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="356" fill="#E84B1A">CVE-2026-54512</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="356" fill="rgba(255,255,255,0.92)">jackson-databind</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="356" fill="rgba(255,255,255,0.50)">PTV bypass to arbitrary class load</text>
+</g>
+<g class="row" style="animation-delay:0.57s">
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="394" fill="rgba(255,255,255,0.38)">2026</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="394" fill="#E84B1A">CVE-2026-7375</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="394" fill="rgba(255,255,255,0.92)">wireshark</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="394" fill="rgba(255,255,255,0.50)">infinite loop in UDS dissector</text>
+</g>
+<g class="row" style="animation-delay:0.69s">
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="432" fill="rgba(255,255,255,0.38)">2026</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="432" fill="#E84B1A">CVE-2026-39973</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="432" fill="rgba(255,255,255,0.92)">apktool</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="432" fill="rgba(255,255,255,0.50)">arbitrary file write via crafted APK</text>
+</g>
+<g class="row" style="animation-delay:0.81s">
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="470" fill="rgba(255,255,255,0.38)">2025</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="470" fill="#E84B1A">GHSA-r625-mph7-wf6j</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="470" fill="rgba(255,255,255,0.92)">ghidra (nsa)</text>
+  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="470" fill="rgba(255,255,255,0.50)">unsafe class load on project open</text>
+</g>
+
+</svg>
