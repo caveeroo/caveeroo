@@ -1,7 +1,5 @@
 <img src="assets/header.svg" alt="caveeroo (jaime cavero sánchez), security research, appsec and reverse engineering. Disclosures: CVE-2026-54512 (jackson-databind PTV bypass), CVE-2026-7375 (wireshark), CVE-2026-39973 (apktool), and GHSA-r625-mph7-wf6j (ghidra, reported to the NSA)." width="100%">
 
-Security research: mostly parsers, file formats, and the tools that open them. I report what I find and wait for the fix before saying anything.
-
 ### Disclosures
 
 `CVE-2026-54512` · **jackson-databind** · [advisory ↗](https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm)  
