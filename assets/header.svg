@@ -1,41 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="528" viewBox="0 0 1200 528" role="img" aria-labelledby="ti">
-<title id="ti">caveeroo (jaime cavero sánchez), security research. Disclosures: CVE-2026-54512 (jackson-databind, PTV bypass), CVE-2026-7375 (wireshark), CVE-2026-39973 (apktool), GHSA-r625-mph7-wf6j (ghidra, NSA).</title>
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">caveeroo, security research</title>
+  <desc id="description">Jaime Cavero Sánchez. Application security and reverse engineering, with source-level evidence at trust boundaries.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1110"/>
+      <stop offset="1" stop-color="#111715"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".028"/>
+    </pattern>
+    <style>
+      .sans { font-family: Arial, "Liberation Sans", Helvetica, sans-serif; }
+      .mono { font-family: "Liberation Mono", Consolas, monospace; }
+      .brand { font-size: 15px; font-weight: 700; letter-spacing: 1.8px; }
+      .name { font-size: 72px; font-weight: 700; letter-spacing: -2.6px; }
+      .role { font-size: 22px; font-weight: 400; letter-spacing: -.2px; }
+      .label { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
+      .value { font-size: 15px; font-weight: 700; letter-spacing: .3px; }
+    </style>
+  </defs>
 
-</defs>
-<rect width="1200" height="528" fill="#0D0D0C"></rect>
-<rect x="0" y="0" width="5" height="528" fill="#E84B1A"></rect>
-<text font-family="PM" font-size="13" font-weight="500" letter-spacing="3" fill="#E84B1A" x="64" y="74">// SECURITY RESEARCH<tspan fill="#6E6E6A">    APPSEC / REVERSE ENGINEERING</tspan></text>
-<text font-family="ZS" font-size="90" font-weight="700" letter-spacing="-2" fill="#FAFAF8" x="60" y="174">caveeroo</text>
-<rect class="underline" x="64" y="194" width="337" height="3" fill="#E84B1A"></rect>
-<text font-family="PM" font-size="13.5" font-weight="500" letter-spacing="2.4" fill="rgba(255,255,255,0.55)" x="64" y="230">JAIME CAVERO SÁNCHEZ    MADRID    UTC+1</text>
-<line x1="64" y1="270" x2="1136" y2="270" stroke="rgba(255,255,255,0.13)" stroke-width="1"></line>
-<text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.4" x="64" y="320"><tspan fill="#E84B1A">$</tspan><tspan fill="rgba(255,255,255,0.82)"> cat disclosures.log</tspan></text>
-<rect class="cursor" x="293" y="308" width="9" height="16" fill="#E84B1A"></rect>
-<rect class="scan" x="64" y="342" width="1072" height="2" fill="#E84B1A" opacity="0"></rect>
-<g class="row" style="animation-delay:0.45s">
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="356" fill="rgba(255,255,255,0.38)">2026</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="356" fill="#E84B1A">CVE-2026-54512</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="356" fill="rgba(255,255,255,0.92)">jackson-databind</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="356" fill="rgba(255,255,255,0.50)">PTV bypass to arbitrary class load</text>
-</g>
-<g class="row" style="animation-delay:0.57s">
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="394" fill="rgba(255,255,255,0.38)">2026</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="394" fill="#E84B1A">CVE-2026-7375</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="394" fill="rgba(255,255,255,0.92)">wireshark</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="394" fill="rgba(255,255,255,0.50)">infinite loop in UDS dissector</text>
-</g>
-<g class="row" style="animation-delay:0.69s">
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="432" fill="rgba(255,255,255,0.38)">2026</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="432" fill="#E84B1A">CVE-2026-39973</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="432" fill="rgba(255,255,255,0.92)">apktool</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="432" fill="rgba(255,255,255,0.50)">arbitrary file write via crafted APK</text>
-</g>
-<g class="row" style="animation-delay:0.81s">
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="64" y="470" fill="rgba(255,255,255,0.38)">2025</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="156" y="470" fill="#E84B1A">GHSA-r625-mph7-wf6j</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="478" y="470" fill="rgba(255,255,255,0.92)">ghidra (nsa)</text>
-  <text font-family="PM" font-size="16" font-weight="500" letter-spacing="0.2" x="700" y="470" fill="rgba(255,255,255,0.50)">unsafe class load on project open</text>
-</g>
+  <rect width="1200" height="360" fill="url(#background)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect x="0" width="6" height="360" fill="#ff6559"/>
 
+  <text x="70" y="69" fill="#c7d0cc" class="mono brand">CAVEEROO <tspan fill="#ff6559">/</tspan> SECURITY RESEARCH</text>
+  <line x1="70" y1="94" x2="1130" y2="94" stroke="#3b4641"/>
+
+  <text x="70" y="178" fill="#f5f7f6" class="sans name">Jaime Cavero Sánchez</text>
+  <text x="73" y="221" fill="#aeb9b4" class="sans role">Application security <tspan fill="#ff6559">/</tspan> reverse engineering</text>
+
+  <line x1="70" y1="266" x2="1130" y2="266" stroke="#3b4641"/>
+  <line x1="424" y1="266" x2="424" y2="328" stroke="#3b4641"/>
+  <line x1="778" y1="266" x2="778" y2="328" stroke="#3b4641"/>
+
+  <text x="70" y="291" fill="#74b8f2" class="mono label">FOCUS</text>
+  <text x="70" y="317" fill="#f5f7f6" class="sans value">Parsers, types, and file boundaries</text>
+
+  <text x="450" y="291" fill="#63c89a" class="mono label">STANDARD</text>
+  <text x="450" y="317" fill="#f5f7f6" class="sans value">Claims bounded by public evidence</text>
+
+  <text x="804" y="291" fill="#ff9b93" class="mono label">LOCATION</text>
+  <text x="804" y="317" fill="#f5f7f6" class="sans value">Madrid, Spain</text>
 </svg>

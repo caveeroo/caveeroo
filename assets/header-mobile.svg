@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img" aria-labelledby="title description">
+  <title id="title">caveeroo, security research</title>
+  <desc id="description">Jaime Cavero Sánchez. Application security and reverse engineering, with claims bounded by public evidence.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1110"/>
+      <stop offset="1" stop-color="#111715"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".028"/>
+    </pattern>
+    <style>
+      .sans { font-family: Arial, "Liberation Sans", Helvetica, sans-serif; }
+      .mono { font-family: "Liberation Mono", Consolas, monospace; }
+      .brand { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; }
+      .name { font-size: 58px; font-weight: 700; letter-spacing: -2.2px; }
+      .role { font-size: 24px; font-weight: 400; }
+      .label { font-size: 15px; font-weight: 700; letter-spacing: 1.2px; }
+      .value { font-size: 20px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="720" height="380" fill="url(#background)"/>
+  <rect width="720" height="380" fill="url(#grid)"/>
+  <rect x="0" width="6" height="380" fill="#ff6559"/>
+
+  <text x="44" y="62" fill="#c7d0cc" class="mono brand">CAVEEROO <tspan fill="#ff6559">/</tspan> SECURITY RESEARCH</text>
+  <line x1="44" y1="88" x2="676" y2="88" stroke="#3b4641"/>
+
+  <text x="44" y="171" fill="#f5f7f6" class="sans name">Jaime Cavero</text>
+  <text x="44" y="229" fill="#f5f7f6" class="sans name">Sánchez</text>
+  <text x="47" y="274" fill="#aeb9b4" class="sans role">Application security <tspan fill="#ff6559">/</tspan> reverse engineering</text>
+
+  <line x1="44" y1="315" x2="676" y2="315" stroke="#3b4641"/>
+  <text x="44" y="342" fill="#74b8f2" class="mono label">STANDARD</text>
+  <text x="174" y="343" fill="#f5f7f6" class="sans value">Claims bounded by public evidence</text>
+</svg>
