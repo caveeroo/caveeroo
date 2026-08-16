@@ -35,4 +35,4 @@ Exploitation requires the victim to run an affected decoder on the APK, and the 
 
 Material for MkDocs switched its social card renderer from Jinja's base `Environment` to `SandboxedEnvironment`, which the release notes describe as security hardening. There's no CVE, GHSA, severity rating, affected-version range, or public exploitability claim attached, which is why it's listed separately from the vulnerability disclosures above.
 
-[caveeroo.dev](https://caveeroo.dev/) / Madrid, Spain
+[caveeroo.dev](https://caveeroo.dev/) / Spain
