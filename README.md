@@ -1,38 +1,23 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
-  <img src="assets/header.svg" alt="caveeroo, Jaime Cavero Sánchez, security research, application security, and reverse engineering." width="100%">
-</picture>
+# Jaime Cavero Sánchez
 
-## Vulnerability disclosures
+Application security / offensive research
 
-### [CVE-2026-54512](https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm) | Jackson Databind
+Security research, secure development, and vulnerability analysis.
 
-A canonical generic type ID could satisfy a configured `PolymorphicTypeValidator` check on its outer container type while smuggling in an inner type the validator would have rejected on its own. Jackson resolved, instantiated, and populated that inner class regardless.
+**[caveeroo.dev](https://caveeroo.dev/)** · Madrid, Spain
 
-This is a type-policy bypass that enables arbitrary class instantiation. Exploiting it requires untrusted JSON to reach the affected polymorphic path, attacker control over the canonical type ID, and a suitable class already on the runtime classpath; reaching remote code execution additionally requires exploitable behavior during initialization, construction, or property binding. Fixed in 2.18.8 and 2.21.4 for `com.fasterxml.jackson.core:jackson-databind`, and in 3.1.4 for the Jackson 3 coordinate `tools.jackson.core:jackson-databind`.
+## Public disclosure index
 
-### [GHSA-r625-mph7-wf6j](https://github.com/NationalSecurityAgency/ghidra/security/advisories/GHSA-r625-mph7-wf6j) | Ghidra
+**12** publicly verified vulnerability records · **7** affected projects
 
-Two project-restoration paths instantiated a class named in the project data, using any accessible no-argument constructor, before checking whether it implemented the expected interface.
+| Product | Findings | Area | Research | Records |
+| --- | ---: | --- | --- | --- |
+| **Apktool** | 1 CVE | Path handling | [Read](https://cv.caveeroo.dev/research/apktool-decoding-path-traversal/) | [CVE-2026-39973](https://www.cve.org/CVERecord?id=CVE-2026-39973) |
+| **Ghidra** | 3 GHSAs | Class loading / resource bounds / paths | [Read](https://cv.caveeroo.dev/research/ghidra-project-deserialization/) | [GHSA-r625-mph7-wf6j](https://github.com/NationalSecurityAgency/ghidra/security/advisories/GHSA-r625-mph7-wf6j) · [GHSA-hrpw-vjfw-gq5r](https://github.com/NationalSecurityAgency/ghidra/security/advisories/GHSA-hrpw-vjfw-gq5r) · [GHSA-42gp-j98c-2297](https://github.com/NationalSecurityAgency/ghidra/security/advisories/GHSA-42gp-j98c-2297) |
+| **Jackson Databind** | 1 CVE | Type validation | [Read](https://cv.caveeroo.dev/research/jackson-databind-polymorphic-validator-bypass/) | [CVE-2026-54512](https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm) |
+| **Joomla** | 1 CVE | CORS validation | — | [CVE-2026-71573](https://developer.joomla.org/security-centre/1069-20260802-core-improper-cors-origin-validation.html) |
+| **Metasploit Framework** | 1 CVE | Authentication / fail-open | — | [CVE-2026-16895](https://www.cve.org/CVERecord?id=CVE-2026-16895) |
+| **Project Oak** | 1 GHSA | ELF loading / attestation | — | [GHSA-ffp2-6m26-mg2c](https://github.com/project-oak/oak/security/advisories/GHSA-ffp2-6m26-mg2c) |
+| **Wireshark** | 4 CVEs | Parsing / memory safety / DoS | [Read](https://cv.caveeroo.dev/research/wireshark-uds-infinite-loop/) | [CVE-2026-7375](https://www.cve.org/CVERecord?id=CVE-2026-7375) · [CVE-2026-76889](https://www.cve.org/CVERecord?id=CVE-2026-76889) · [CVE-2026-76885](https://www.cve.org/CVERecord?id=CVE-2026-76885) · [CVE-2026-76884](https://www.cve.org/CVERecord?id=CVE-2026-76884) |
 
-Exploitation required the victim to open a crafted project, and the target class had to be loadable from Ghidra's runtime classpath. The advisory doesn't identify a bundled gadget for arbitrary command execution. Version 12.1.1 is marked patched, but users installing a published binary should move to 12.1.2 or later.
-
-### [CVE-2026-7375](https://www.wireshark.org/security/wnpa-sec-2026-50) | Wireshark
-
-A malformed UDS define-by-memory-address request could drive both parsed field lengths to zero, and the dissector would loop without ever advancing its offset. Opening the capture, running it through `tshark`, or simply encountering the packet during a live capture was enough to hang the process and pin a CPU core.
-
-Public evidence points to denial of service only: no memory corruption, code execution, information disclosure, or privilege escalation. Fixed in 4.6.5 and 4.4.15.
-
-### [CVE-2026-39973](https://github.com/iBotPeaches/Apktool/security/advisories/GHSA-m8mh-x359-vm8m) | Apktool
-
-A refactor dropped the traversal check on a resource-type string read from `resources.arsc`, and that string went straight into an output path. A crafted APK could use this to make `apktool d` write files outside the chosen decode directory.
-
-Exploitation requires the victim to run an affected decoder on the APK, and the resulting write is limited to the Apktool process's own filesystem permissions. Turning it into code execution depends on where the file lands and on something else later loading or executing it. Fixed in 3.0.2.
-
-## Security hardening
-
-### [Material for MkDocs 9.7.4](https://github.com/squidfunk/mkdocs-material/releases/tag/9.7.4)
-
-Material for MkDocs switched its social card renderer from Jinja's base `Environment` to `SandboxedEnvironment`, which the release notes describe as security hardening. There's no CVE, GHSA, severity rating, affected-version range, or public exploitability claim attached, which is why it's listed separately from the vulnerability disclosures above.
-
-[caveeroo.dev](https://caveeroo.dev/) / Spain
+Detailed research, CV, and contact information live at **[caveeroo.dev](https://caveeroo.dev/)**.
