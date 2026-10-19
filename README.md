@@ -19,7 +19,7 @@ Security research, secure development, and vulnerability analysis.
 | **Linux Kernel** | 1 ZDI-CAN | N/A | — | ZDI-CAN-32869 |
 | **Metasploit Framework** | 1 CVE | Authentication / fail-open | — | [CVE-2026-16895](https://www.cve.org/CVERecord?id=CVE-2026-16895) |
 | **Microsoft .NET** | 1 CVE | Proxy credential disclosure | — | [CVE-2026-66822](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66822) |
-| **Moodle** | 1 CVE | Question bank web service / SQL injection | — | [CVE-2026-102578](https://moodle.org/mod/forum/discuss.php?d=482496) |
+| **Moodle** | 1 CVE | Question bank web service / SQL injection | — | [CVE-2026-102578](https://nvd.nist.gov/vuln/detail/cve-2026-102578) |
 | **Project Oak** | 1 GHSA | ELF loading / attestation | — | [GHSA-ffp2-6m26-mg2c](https://github.com/project-oak/oak/security/advisories/GHSA-ffp2-6m26-mg2c) |
 | **Wireshark** | 4 CVEs | Parsing / memory safety / DoS | [Read](https://caveeroo.dev/research/wireshark-uds-infinite-loop/) | [CVE-2026-7375](https://www.cve.org/CVERecord?id=CVE-2026-7375) · [CVE-2026-76889](https://www.cve.org/CVERecord?id=CVE-2026-76889) · [CVE-2026-76885](https://www.cve.org/CVERecord?id=CVE-2026-76885) · [CVE-2026-76884](https://www.cve.org/CVERecord?id=CVE-2026-76884) |
 
